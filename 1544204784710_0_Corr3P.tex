@@ -9,4 +9,33 @@
 Correction série 3 python
     \end{center}
 \end{titlepage}
+
+\section{exercice n°3 :}
+        \begin{center}
+    		entree et afichage de note :
+		\end{center}    	  
+        	
+    	\begin{verbatim}
+			entree=list()
+			a=5
+			while a <= 20  and a >= 0:
+    			a=int(input("entrez une note comprise entre 0 et 20 : "))
+    			if a <= 20 and a >= 0:
+        			entree.append(a) 
+			if len(entree) > 0 :
+    			for i in range(len(entree)):
+        			print("note {} : {}".format(i,entree[i]))
+   			 a=0
+   			 m=sum(entree)/len(entree)
+    			for i in range(len(entree)):
+        			a+=(entree[i]-m)**2
+    
+    			print("\nla note maximale : {}".format(max(entree)))
+    			print("\nla note minimale : {}".format(min(entree)))
+    			print("\nla moyenne : {}".format(m))
+    			print("\nl'écart type : {}".format(((1/n)*a)**(1/2)))
+			else:
+    			print("acune note a calculer")
+		\end{verbatim}
+
 \end{document}
