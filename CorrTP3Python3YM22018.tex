@@ -1,6 +1,37 @@
 \documentclass{article}
 
-\title{Correction série 3}
+% packages pour le style que j'utilise pour écrire du python :
+\usepackage{listings}
+\usepackage{color}
+
+% ici style pour code Python
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstset{
+	language=python,
+	backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+% ici termine style code Python
+
+
+\title{Correction serie 3}
 \author{Imane Sbai}
 \date {\today}
 \begin{document}
@@ -10,19 +41,19 @@ Correction s\'{e}rie 3 python
     \end{center}
 \end{titlepage}
 
-\section{exercice n°1 :}
+\section{exercice num1 :}
 	\begin{center}
     		Abderrahmane :
 	\end{center} 
 	
-	\begin{verbatim}
-	k=0
-    	chaine=input("entrez une chaine de character : ")
-	for i in chaine:
-   		print(k, i)
-	   	k=k+1
-	\end{verbatim}
-\section{exercice n°2 :}
+\begin{lstlisting}
+k=0
+chaine=input("entrez une chaine de character : ")
+for i in chaine:
+	print(k, i)
+	k=k+1
+\end{lstlisting}
+\section{exercice num2 :}
 
 	\begin{center}
     		Ichrac :
@@ -32,9 +63,8 @@ Correction s\'{e}rie 3 python
 	\begin{center}
     		Loubna :
 	\end{center} 
-	\begin{verbatim}
-	la liste affiche le resultat suivant : 15
-        \end{verbatim}
+	
+
         \begin{center}
     		 Yahya Faouzi :
 	\end{center}    	  
@@ -78,7 +108,7 @@ B=[ 4,  5,  5, 6 ]
 	
 	\begin{verbatim}
 		Correction F:
-	le code affiche la liste suivante : [!,1,2,!,4,5,!,7]
+	[!,1,2,!,4,5,!,7]
 
 	\end{verbatim}
 	
@@ -125,7 +155,7 @@ Print(liste)
 Resultat:
 [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 \end{verbatim}
-\section{exercice n°3 :}
+\section{exercice num3 :}
         \begin{center}
     		Saad El Harchi :
 	\end{center}    	  
@@ -153,7 +183,7 @@ Resultat:
     			print("acune note a calculer")
 		\end{verbatim}
 
-\section{exercice n°4 :}
+\section{exercice num4 :}
 	\begin{center}
     		Aymen, El Arbi, Mohamed :
 	\end{center}
