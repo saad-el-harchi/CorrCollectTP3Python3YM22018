@@ -25,3 +25,7 @@ I --> Ayman
 Exercice 3 : Saad
 
 Exercice 4 : Ayman, el arbi et Mohamed
+
+Exercice 5 : Siham
+
+Exercice 6 : Houssam
