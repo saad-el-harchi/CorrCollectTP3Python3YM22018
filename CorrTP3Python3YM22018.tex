@@ -197,4 +197,43 @@ Resultat:
                 If a[i]>=a[j] and i>j
                     a[i]; a[i]=a[j];a[i]
 	\end{lstlisting}
+
+\section{exercice num4 :}
+	\begin{center}
+    		siham :
+	\end{center}
+	
+	\begin{lstlistings}
+	#partie 1:
+	
+	s=raw_input("saisir une chaine de caractere:")
+	char=list()
+	dic=list()
+
+	for i in range(len(s)):
+	    if s[i] not in char:
+		char.append(s[i])
+	for i in range(len(char)):
+	    dic.append({})
+	    dic[i]["char"]=char[i]
+	    dic[i]["occurance"]=s.count(char[i])
+	print(dic)
+	
+	
+	#partie 2:
+	
+	s=raw_input("saisir une chaine de caractere:")
+	char=list()
+	dic=list()
+
+	for i in range(len(s)):
+	    if s[i] not in char:
+		char.append(s[i])
+	char=sorted(char)
+	for i in range(len(char)):
+	    dic.append({})
+	    dic[i]["char"]=char[i]
+	    dic[i]["occurance"]=s.count(char[i])
+	print(dic)
+	\end{lstlisting}
 \end{document}
